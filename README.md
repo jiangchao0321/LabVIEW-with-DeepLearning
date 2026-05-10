@@ -11,7 +11,7 @@ This repository provides a LabVIEW DeepLTK-based demo for intelligent bearing fa
 - **Dataset:** CWRU Bearing Fault Dataset  
 - **Hardware:** No real-time DAQ hardware is required for the current offline demo
 
-## Before running the demo program, please ensure that DeepLTK is correctly installed, and download the dataset archive and the required VI programs.
+## Before running the demo program, please ensure that DeepLTK is correctly installed, and download the dataset archive and the required VI programs
 
 ## “Model Train” Interface Usage
 
