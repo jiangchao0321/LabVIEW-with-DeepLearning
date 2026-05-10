@@ -64,9 +64,9 @@ The prediction interface is shown below. It is used to load the trained DeepLTK 
 The prediction procedure is as follows:
 
 **Step 1. Load trained model files**
-   In Area ⑨, load the two files generated after model training:
-   Network Configuration File: `.cfg`
-   Weight File: `.bin`
+In Area ⑨, load the two files generated after model training:
+Network Configuration File: `.cfg`
+Weight File: `.bin`
 
 **Step 2. Configure the accelerator**
    In Area ⑩, select the computation device used for prediction.
