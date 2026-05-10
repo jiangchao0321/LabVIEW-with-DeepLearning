@@ -35,22 +35,22 @@ The model training interface is shown below.
 
 The main operation steps are as follows:
 
-Step 1. **Load dataset paths**  
+**Step 1. Load dataset paths**  
    Set the paths of the training dataset and test dataset in Area ①, and then click the **Datain** button to load the data.
 
-2. **Configure training parameters**  
+**Step 1. Configure training parameters**  
    Configure the optimizer, learning rate update policy, data sampling strategy, warm-up settings, and accelerator device in Area ②.
 
-3. **Start model training**  
+**Step 2. Start model training**  
    Click the **Start** button to begin training. During training, the training loss, test loss, and test error curves are displayed in real time in Area ③.
 
-4. **Validate the model**  
+**Step 3. Validate the model**  
    Click the **Eval** button during or after training to evaluate the model performance. The confusion matrix, recall, and precision values are displayed in Area ④.
 
-5. **Monitor training status**  
+**Step 4. Monitor training status**  
    The current epoch, total iterations, learning rate, training loss, test loss, test error, and elapsed training time are displayed on the right side of the interface.
 
-6. **Stop and save the model**  
+**Step 5. Stop and save the model**  
    After the loss has converged, click the **STOP** button. The trained network configuration and weights will be automatically saved as `.cfg` and `.bin` files in the following folder: `working/Fault_Classifier`.
 
 ## 5. Prediction Interface Usage
@@ -63,18 +63,18 @@ The prediction interface is shown below. It is used to load the trained DeepLTK 
 
 The prediction procedure is as follows:
 
-1. **Load trained model files**
+**Step 1. Load trained model files**
    In Area ⑨, load the two files generated after model training:
    Network Configuration File: `.cfg`
    Weight File: `.bin`
 
-2. **Configure the accelerator**
+**Step 2. Configure the accelerator**
    In Area ⑩, select the computation device used for prediction.
 
-3. **Start prediction**
+**Step 3. Start prediction**
    Click the **Start** button in Area ⑫ to start the prediction and evaluation process.
    
-4. **View prediction results**
+**Step 4. View prediction results**
    The prediction results will be displayed in Area ⑪.
 
 ## 6. Important Notes
