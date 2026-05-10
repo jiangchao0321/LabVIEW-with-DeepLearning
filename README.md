@@ -43,14 +43,23 @@ The model training interface is shown below. The main operation steps are as fol
 
 The prediction interface is shown below. It is used to load the trained DeepLTK model and evaluate its classification performance on the test dataset.
 
-<p align="center">
-  <img src="model_prediction_interface.png" alt="Prediction Interface" width="900">
+<p align="left">
+  <img src="model_prediction_interface.png" alt="Prediction Interface" width="600">
 </p>
 
-1. **Load trained model files**  
-   Set the paths of the trained network configuration file and weight file in Area ⑨.
+The prediction procedure is as follows:
 
-   The network configuration file is usually saved as:
+1. **Load trained model files**
+   In Area ⑨, load the two files generated after model training:
+   Network Configuration File: *.cfg
+   Weight File: *.bin
 
-   ```text
-   *.cfg
+2. **Configure the accelerator**
+   In Area ⑩, select the computation device used for prediction.
+
+3. **Start prediction**
+   Click the **Start** button in Area ⑫ to start the prediction and evaluation process.
+   
+4. **View prediction results**
+   The prediction results will be displayed in Area ⑪.
+
