@@ -76,3 +76,10 @@ The prediction procedure is as follows:
 4. **View prediction results**
    The prediction results will be displayed in Area ⑪.
 
+## Important Notes
+
+- When using GPU for model training or prediction in DeepLTK, the LabVIEW project or related model files may become unstable or crash. For this demo, CPU mode is recommended for better stability.
+- This project was developed using the trial version of the DeepLTK toolbox. Due to trial-version limitations, the number of parameters in each model layer is kept below 10,000.
+- The CWRU dataset is selected mainly because it is relatively small, well-structured, and easy for the model to converge quickly during demonstration.
+- The current CNN model is designed for fast validation of the LabVIEW DeepLTK workflow. Its performance on other datasets may be limited and should not be regarded as a general-purpose bearing fault diagnosis model.
+
