@@ -11,6 +11,17 @@ This repository provides a LabVIEW DeepLTK-based demo for intelligent bearing fa
 - **Dataset:** CWRU Bearing Fault Dataset  
 - **Hardware:** No real-time DAQ hardware is required for the current offline demo
 
+## File Description
+
+| File | Description |
+|---|---|
+| `README.md` | Project introduction file. It describes the purpose of the demo, environment requirements, usage instructions, and notes. |
+| `bmp_dataset_32x32.rar` | Preprocessed image-format dataset used for the DeepLTK bearing fault diagnosis demo. The samples are organized as 32 × 32 BMP images for model training and testing. |
+| `fault diagnosis.vi` | Main LabVIEW VI for the bearing fault diagnosis demo. It implements the DeepLTK-based diagnosis workflow, including data loading, model execution, and result display. |
+| `model_prediction_interface.png` | Screenshot of the model prediction interface in LabVIEW. It shows the diagnosis interface and prediction result display. |
+| `model_train_interface.png` | Screenshot of the model training interface in LabVIEW. It shows the DeepLTK model training process and related settings. |
+| `working.rar` | Compressed working project package. It may contain the complete LabVIEW project files, related subVIs, configuration files, or intermediate working files used during development. |
+
 ## Before running the demo program, please ensure that DeepLTK is correctly installed, and download the dataset archive and the required VI programs
 
 ## “Model Train” Interface Usage
