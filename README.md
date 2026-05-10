@@ -20,7 +20,7 @@ This repository provides a LabVIEW DeepLTK-based demo for intelligent bearing fa
 | `fault diagnosis.vi` | Main LabVIEW VI for the bearing fault diagnosis demo. It implements the DeepLTK-based diagnosis workflow, including data loading, model execution, and result display. |
 | `model_prediction_interface.png` | Screenshot of the model prediction interface in LabVIEW. It shows the diagnosis interface and prediction result display. |
 | `model_train_interface.png` | Screenshot of the model training interface in LabVIEW. It shows the DeepLTK model training process and related settings. |
-| `working.rar` | Compressed DeepLTK trained model package. It contains the exported network configuration file (`.cfg`), model visualization/render file, and trained weight file (`.bin`) generated after model training. |
+| `working.rar` | Compressed DeepLTK trained model package. It contains the exported network configuration file `.cfg`, model visualization/render file, and trained weight file `.bin` generated after model training. |
 
 ## Preparation Before Running
 Before running the demo, please make sure that DeepLTK is correctly installed and that the dataset archive and required VI files have been downloaded.
@@ -65,8 +65,8 @@ The prediction procedure is as follows:
 
 1. **Load trained model files**
    In Area ⑨, load the two files generated after model training:
-   Network Configuration File: *.cfg
-   Weight File: *.bin
+   Network Configuration File: `.cfg`
+   Weight File: `.bin`
 
 2. **Configure the accelerator**
    In Area ⑩, select the computation device used for prediction.
