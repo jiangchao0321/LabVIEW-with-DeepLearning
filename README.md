@@ -39,3 +39,18 @@ The model training interface is shown below. The main operation steps are as fol
 6. **Stop and save the model**  
    After the loss has converged, click the **STOP** button. The trained network configuration and weights will be automatically saved as `.cfg` and `.bin` files in the following folder: working/Fault_Classifier.
 
+## Prediction Interface Usage
+
+The prediction interface is shown below. It is used to load the trained DeepLTK model and evaluate its classification performance on the test dataset.
+
+<p align="center">
+  <img src="model_prediction_interface.png" alt="Prediction Interface" width="900">
+</p>
+
+1. **Load trained model files**  
+   Set the paths of the trained network configuration file and weight file in Area ⑨.
+
+   The network configuration file is usually saved as:
+
+   ```text
+   *.cfg
