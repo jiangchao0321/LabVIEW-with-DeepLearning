@@ -16,8 +16,8 @@ This repository provides a LabVIEW DeepLTK-based demo for intelligent bearing fa
 
 The model training interface is shown below. The main operation steps are as follows:
 
-<p align="center">
-  <img src="model_train_interface.png" alt="Model Training Interface" width="900">
+<p align="left">
+  <img src="model_train_interface.png" alt="Model Training Interface" width="600">
 </p>
 
 
