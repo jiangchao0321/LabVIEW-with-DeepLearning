@@ -3,7 +3,7 @@ A LabVIEW DeepLTK demo for CNN-based bearing fault diagnosis using the CWRU data
 
 This repository provides a LabVIEW DeepLTK-based demo for intelligent bearing fault diagnosis using the CWRU bearing dataset. The demo demonstrates how to integrate a deep learning model into the LabVIEW environment through DeepLTK, including signal loading, CNN-based fault classification, prediction output, and diagnostic result visualization. The current version focuses on validating the feasibility of implementing deep learning-based bearing fault diagnosis within LabVIEW using DeepLTK.
 
-## Environment Requirements
+## 1. Environment Requirements
 - **Operating System:** Windows 10 / Windows 11, 64-bit recommended  
 - **LabVIEW:** LabVIEW 2020 or later recommended  
 - **Deep Learning Toolkit:** DeepLTK / Deep Learning Toolkit for LabVIEW  
@@ -11,7 +11,7 @@ This repository provides a LabVIEW DeepLTK-based demo for intelligent bearing fa
 - **Dataset:** CWRU Bearing Fault Dataset  
 - **Hardware:** No real-time DAQ hardware is required for the current offline demo
 
-## File Description
+## 2. File Description
 
 | File | Description |
 |---|---|
@@ -22,10 +22,10 @@ This repository provides a LabVIEW DeepLTK-based demo for intelligent bearing fa
 | `model_train_interface.png` | Screenshot of the model training interface in LabVIEW. It shows the DeepLTK model training process and related settings. |
 | `working.rar` | Compressed DeepLTK trained model package. It contains the exported network configuration file `.cfg`, model visualization/render file, and trained weight file `.bin` generated after model training. |
 
-## Preparation Before Running
+## 3. Preparation Before Running
 Before running the demo, please make sure that DeepLTK is correctly installed and that the dataset archive and required VI files have been downloaded.
 
-## Model Train Interface Usage
+## 4. Model Train Interface Usage
 
 The model training interface is shown below.
 
@@ -53,7 +53,7 @@ The main operation steps are as follows:
 6. **Stop and save the model**  
    After the loss has converged, click the **STOP** button. The trained network configuration and weights will be automatically saved as `.cfg` and `.bin` files in the following folder: `working/Fault_Classifier`.
 
-## Prediction Interface Usage
+## 5. Prediction Interface Usage
 
 The prediction interface is shown below. It is used to load the trained DeepLTK model and evaluate its classification performance on the test dataset.
 
@@ -77,7 +77,7 @@ The prediction procedure is as follows:
 4. **View prediction results**
    The prediction results will be displayed in Area ⑪.
 
-## Important Notes
+## 6. Important Notes
 
 - When using GPU for model training or prediction in DeepLTK, the LabVIEW project or related model files may become unstable or crash. For this demo, CPU mode is recommended for better stability.
 - This project was developed using the trial version of the DeepLTK toolbox. Due to trial-version limitations, the number of parameters in each model layer is kept below 10,000.
