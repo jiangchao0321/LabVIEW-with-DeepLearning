@@ -35,7 +35,7 @@ The model training interface is shown below.
 
 The main operation steps are as follows:
 
-1. **Load dataset paths**  
+Step 1. **Load dataset paths**  
    Set the paths of the training dataset and test dataset in Area ①, and then click the **Datain** button to load the data.
 
 2. **Configure training parameters**  
