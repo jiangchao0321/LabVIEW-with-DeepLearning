@@ -16,7 +16,7 @@ This repository provides a LabVIEW DeepLTK-based demo for intelligent bearing fa
 
 The model training interface is shown below. The main operation steps are as follows:
 
-![Model Training Interface](images/model_train_interface.png)
+![Model Training Interface](model_train_interface.png)
 
 1. **Load dataset paths**  
    Set the paths of the training dataset and test dataset in Area ①, and then click the **Data In** button to load the data.
