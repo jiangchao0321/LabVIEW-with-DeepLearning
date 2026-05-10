@@ -16,7 +16,7 @@ This repository provides a LabVIEW DeepLTK-based demo for intelligent bearing fa
 | File | Description |
 |---|---|
 | `README.md` | Project introduction file. It describes the purpose of the demo, environment requirements, usage instructions, and notes. |
-| `bmp_dataset_32x32.rar` | Preprocessed CWRU bearing fault dataset used in this demo. The original one-dimensional vibration signals are converted into 32 × 32 BMP image samples for DeepLTK model training and testing. The dataset contains four classes: normal condition, inner race fault, outer race fault, and ball fault. Each image corresponds to one vibration signal segment, and each folder/category corresponds to one fault label. |
+| `bmp_dataset_32x32.rar` | Preprocessed CWRU bearing fault dataset used in this demo. The original one-dimensional vibration signals are converted into 32 × 32 BMP image samples for DeepLTK model training and testing. The dataset contains four classes: normal condition, inner race fault, outer race fault, and ball fault. Each image corresponds to one vibration signal segment, and each folder corresponds to one fault label. |
 | `fault diagnosis.vi` | Main LabVIEW VI for the bearing fault diagnosis demo. It implements the DeepLTK-based diagnosis workflow, including data loading, model execution, and result display. |
 | `model_prediction_interface.png` | Screenshot of the model prediction interface in LabVIEW. It shows the diagnosis interface and prediction result display. |
 | `model_train_interface.png` | Screenshot of the model training interface in LabVIEW. It shows the DeepLTK model training process and related settings. |
