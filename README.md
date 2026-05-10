@@ -22,9 +22,10 @@ This repository provides a LabVIEW DeepLTK-based demo for intelligent bearing fa
 | `model_train_interface.png` | Screenshot of the model training interface in LabVIEW. It shows the DeepLTK model training process and related settings. |
 | `working.rar` | Compressed DeepLTK trained model package. It contains the exported network configuration file (`.cfg`), model visualization/render file, and trained weight file (`.bin`) generated after model training. |
 
-## Before running the demo program, please ensure that DeepLTK is correctly installed, and download the dataset archive and the required VI programs
+## Preparation Before Running
+Before running the demo, please make sure that DeepLTK is correctly installed and that the dataset archive and required VI files have been downloaded.
 
-## “Model Train” Interface Usage
+## Model Train Interface Usage
 
 The model training interface is shown below.
 
@@ -35,7 +36,7 @@ The model training interface is shown below.
 The main operation steps are as follows:
 
 1. **Load dataset paths**  
-   Set the paths of the training dataset and test dataset in Area ①, and then click the **DataIn** button to load the data.
+   Set the paths of the training dataset and test dataset in Area ①, and then click the **Datain** button to load the data.
 
 2. **Configure training parameters**  
    Configure the optimizer, learning rate update policy, data sampling strategy, warm-up settings, and accelerator device in Area ②.
@@ -50,9 +51,9 @@ The main operation steps are as follows:
    The current epoch, total iterations, learning rate, training loss, test loss, test error, and elapsed training time are displayed on the right side of the interface.
 
 6. **Stop and save the model**  
-   After the loss has converged, click the **STOP** button. The trained network configuration and weights will be automatically saved as `.cfg` and `.bin` files in the following folder: working/Fault_Classifier.
+   After the loss has converged, click the **STOP** button. The trained network configuration and weights will be automatically saved as `.cfg` and `.bin` files in the following folder: `working/Fault_Classifier`.
 
-## “Prediction“ Interface Usage
+## Prediction Interface Usage
 
 The prediction interface is shown below. It is used to load the trained DeepLTK model and evaluate its classification performance on the test dataset.
 
